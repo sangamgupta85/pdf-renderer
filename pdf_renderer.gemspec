@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = PdfRenderer::VERSION
   s.authors     = ["Sangam Gupta"]
   s.email       = ["sangamgupta85@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of PdfRenderer."
-  s.description = "TODO: Description of PdfRenderer."
+  s.homepage    = "Not Yet available"
+  s.summary     = "PDF format hook to Rails rendering stack"
+  s.description = "This gem gives you to hook pdf format in methods"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.13"
+  s.add_dependency "rails", ">= 3.2.6"
 
   s.add_development_dependency "sqlite3"
 
